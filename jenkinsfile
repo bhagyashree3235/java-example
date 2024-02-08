@@ -1,5 +1,5 @@
 pipeline {
-    agent {docker}
+    agent any
     
     environment {
         AWS_ACCOUNT_ID = "646347823701"
